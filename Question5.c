@@ -11,7 +11,7 @@ int main(){
         printf("Give me a letter from the alphabet: ");
         scanf("%c", &input);
         getchar();
-
+        input = towlower(input);
           // first checks if input is an alphabet then checks if input is vowel or consonant and then prints out ascii value of char
         if (!isalpha(input)) {
             printf("The character '%c' is not an alphabetic letter.\n", input);
