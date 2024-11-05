@@ -6,6 +6,7 @@ int main(){
     float input = 0.0;
     char op;
     
+    
      for(int i = 0; i < 11; i++){
         // accepts number
         printf("Give me a number: ");
