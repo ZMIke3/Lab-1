@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
+// Just reuploading just in case I didn't submit this on github
 int main(){
 
     float input = 0.0;
     char op;
     
-    
+
      for(int i = 0; i < 11; i++){
         // accepts number
         printf("Give me a number: ");
